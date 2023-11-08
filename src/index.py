@@ -37,6 +37,7 @@ def virheet():
     huono = Varasto(100.0, -50.7)
     print(huono)
 
+def mehu_virheet():
     mehua = Varasto(100.0)
     print(f"Mehuvarasto: {mehua}")
     print("mehua.lisaa_varastoon(-666.0)")
